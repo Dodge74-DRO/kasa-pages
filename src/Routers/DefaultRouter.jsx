@@ -10,7 +10,7 @@ import Location from './../pages/Location/Location';
 
 const DefaultRouter = () => {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/kasa-pages">
       <Header />
       <main className='pageContenair'>
         <Routes>
